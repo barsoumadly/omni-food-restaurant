@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/menu-styles.css">
+    <title> Omnifood </title>
+</head>
+
+<body>
+
+    <!------ Header ------>
+    <header>
+        <div class="row">
+            <div class="main">
+                <img src="resources/img/white-logo.png" alt="Logo Image" class="logo-image">
+                <img src="resources/img/black-logo.png" alt="logo black" class="logo-black">
+                <nav class="main-nav">
+                    <ul>
+                        <li> <a href="#" class="nav-5">home</a></li>
+                        <li> <a href="#" class="nav-6">menu</a></li>
+                        <li> <a href="#" class="nav-7">gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-header">
+            <h1 class="main-head"> Omnifood Menu </h1>
+        </div>
+    </header>
+
+    <!------ Section 1 Introduction ------>
+    <section class="section-introduction">
+        <div>
+            <h2> Get food fast — not fast food </h2>
+            <div class="row">
+                <img src="resources/img/intro-img.jpg" alt="Resturant" class="our-place">
+                <div class="features">
+                    <i class="ion-ios-infinite icon-big"></i>
+                    <h3 class="advantages"> Up to 365 days/year </h3>
+                </div>
+                <div class="features">
+                    <i class="ion-ios-stopwatch-outline icon-big"></i>
+                    <h3 class="advantages"> Ready in 20 minutes </h3>
+                </div>
+                <div class="features">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h3 class="advantages"> 100% organic </h3>
+                </div>
+                <div class="features">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h3 class="advantages"> Order anything </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 2 Lunch ------>
+    <section class="section-lunch">
+        <div class="intro">
+            <p class="meal"> Lunch </p>
+        </div>
+    </section>
+
+    <!------ Section 3 Menu ------>
+    <section class="section-meals">
+        <h2 class="lunch-menu"> Lunch Menu </h2>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column1">
+                <div class="list" value="1" onmouseenter="addButton(1)" onmouseleave="removeButton(1)">
+                    <h4> Korean bibimbap </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy1"> Buy now </a>
+                    <img src="resources/img/meal-10.jpg" alt="Korean bibimbap with egg and vegetables"
+                        class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column1">
+                <div class="list" value="2" onmouseenter="addButton(2)" onmouseleave="removeButton(2)">
+                    <h4> pizza </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy2"> Buy now </a>
+                    <img src="resources/img/meal-2.jpg" alt="Simple italian pizza with cherry tomatoes" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column1">
+                <div class="list" value="3" onmouseenter="addButton(3)" onmouseleave="removeButton(3)">
+                    <h4> Chicken breast </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy3"> Buy now </a>
+                    <img src="resources/img/meal-3.jpg" alt="Chicken breast steak with vegetables" class="meal-image">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column2">
+                <div class="list" value="4" onmouseenter="addButton(4)" onmouseleave="removeButton(4)">
+                    <h4> pumpkin soup </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy4"> Buy now </a>
+                    <img src="resources/img/meal-4.jpg" alt="Autumn pumpkin soup" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column2">
+                <div class="list" value="5" onmouseenter="addButton(5)" onmouseleave="removeButton(5)">
+                    <h4> Paleo beef steak </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy5"> Buy now </a>
+                    <img src="resources/img/meal-5.jpg" alt="Paleo beef steak with vegetables" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column2">
+                <div class="list" value="6" onmouseenter="addButton(6)" onmouseleave="removeButton(6)">
+                    <h4> Healthy baguette </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy6"> Buy now </a>
+                    <img src="resources/img/meal-6.jpg" alt="Healthy baguette with egg and vegetables" class="meal-image">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column3">
+                <div class="list" value="7" onmouseenter="addButton(7)" onmouseleave="removeButton(7)">
+                    <h4> Burger </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy7"> Buy now </a>
+                    <img src="resources/img/meal-7.jpg" alt="Burger with cheddar and bacon" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column3">
+                <div class="list" value="8" onmouseenter="addButton(8)" onmouseleave="removeButton(8)">
+                    <h4> fried pork belly </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy8"> Buy now </a>
+                    <img src="resources/img/meal-11.jpg" alt="fried pork belly" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column3">
+                <div class="list" value="9" onmouseenter="addButton(9)" onmouseleave="removeButton(9)">
+                    <h4> Montilla moriles </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy9"> Buy now </a>
+                    <img src="resources/img/meal-12.jpg" alt="Montilla moriles" class="meal-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 4 Dinner ------>
+    <section class="section-dinner">
+        <div class="intro2">
+            <p class="meal"> Dinner </p>
+        </div>
+    </section>
+
+    <!------ Section 5 Menu ------>
+    <section class="section-meals">
+        <h2 class="dinner-menu"> Dinner Menu </h2>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column4">
+                <div class="list" value="1" onmouseenter="addButton(1)" onmouseleave="removeButton(1)">
+                    <h4> Grilling Recipes </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy1"> Buy now </a>
+                    <img src="resources/img/meal-13.jpg" alt="Grilling Recipes" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column4">
+                <div class="list" value="2" onmouseenter="addButton(2)" onmouseleave="removeButton(2)">
+                    <h4> Chicken With Oregano </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy2"> Buy now </a>
+                    <img src="resources/img/meal-14.jpg" alt="Chicken With Oregano" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column4">
+                <div class="list" value="3" onmouseenter="addButton(3)" onmouseleave="removeButton(3)">
+                    <h4> Korean bibimbap </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy3"> Buy now </a>
+                    <img src="resources/img/meal-1.jpg" alt="Korean bibimbap" class="meal-image">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column5">
+                <div class="list" value="4" onmouseenter="addButton(4)" onmouseleave="removeButton(4)">
+                    <h4> Chili Garlic Shrimp</h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy4"> Buy now </a>
+                    <img src="resources/img/meal-15.jpg" alt="Chili Garlic Shrimp" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column5">
+                <div class="list" value="5" onmouseenter="addButton(5)" onmouseleave="removeButton(5)">
+                    <h4> Creamy White Beans </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy5"> Buy now </a>
+                    <img src="resources/img/meal-16.jpg" alt="Creamy White Beans" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column5">
+                <div class="list" value="6" onmouseenter="addButton(6)" onmouseleave="removeButton(6)">
+                    <h4> Red wines </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy6"> Buy now </a>
+                    <img src="resources/img/meal-17.jpg" alt="Red wines" class="meal-image">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column6">
+                <div class="list" value="7" onmouseenter="addButton(7)" onmouseleave="removeButton(7)">
+                    <h4> Granola with cherries </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy7"> Buy now </a>
+                    <img src="resources/img/meal-8.jpg" alt="Granola with cherries" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column6">
+                <div class="list" value="8" onmouseenter="addButton(8)" onmouseleave="removeButton(8)">
+                    <h4> Dessert </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy8"> Buy now </a>
+                    <img src="resources/img/meal-9.jpg" alt="Dessert" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column6">
+                <div class="list" value="9" onmouseenter="addButton(9)" onmouseleave="removeButton(9)">
+                    <h4> Honey Semifreddo </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy9"> Buy now </a>
+                    <img src="resources/img/meal-18.jpg" alt="Honey Semifreddo" class="meal-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Footer ------>
+    <footer>
+        <div class="row">
+            <ul class="first-list">
+                <a href="#">
+                    <li> About us </li>
+                </a>
+                <a href="#">
+                    <li> Blog </li>
+                </a>
+                <a href="#">
+                    <li> Press </li>
+                </a>
+                <a href="#">
+                    <li> ios App </li>
+                </a>
+                <a href="#">
+                    <li> Android App </li>
+                </a>
+            </ul>
+            <ul class="second-list">
+                <a href="#">
+                    <li> <i class="ion-social-facebook"></i></li>
+                </a>
+                <a href="#">
+                    <li> <i class="ion-social-twitter"></i></li>
+                </a>
+                <a href="#">
+                    <li> <i class="ion-social-googleplus"></i></li>
+                </a>
+                <a href="#">
+                    <li> <i class="ion-social-instagram-outline"></i></li>
+                </a>
+            </ul>
+        </div>
+        <p> Copyright © 2020 by Barsoum Adly. All rights reserved </p>
+    </footer>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="resources/js/menu.js"></script>
+
+</html>

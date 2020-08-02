@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport"  content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/main-styles.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/main-queries.css">
+    <title> Omnifood Restaurant </title>
+</head>
+
+<body>
+
+    <!------ Header ------>
+    <header>
+        <div class="row">
+            <div class="main">
+                <img src="resources/img/white-logo.png" alt="Logo Image" class="logo-image">
+                <img src="resources/img/black-logo.png" alt="logo black" class="logo-black">
+                <nav class="main-nav">
+                    <ul>
+                        <li> <a href="#" class="nav-5">home</a></li>
+                        <li> <a href="#" class="nav-6">menu</a></li>
+                        <li> <a href="#" class="nav-7">gallery</a></li>
+                        <li> <a href="#" class="nav-1">food delivery</a></li>
+                        <li> <a href="#" class="nav-2">how it works</a></li>
+                        <li> <a href="#" class="nav-3">our cities</a></li>
+                        <li> <a href="#" class="nav-4">book</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="main-header">
+            <h1 class="main-head"> <span class="break"> Goodbye junk food <br> Hello super healthy </span> meals </h1>
+            <a href="#" class="btn btn-full"> I'm hungry </a>
+            <a href="#" class="btn btn-ghost"> Show me more </a>
+        </div>
+    </header>
+
+    <!------ Section 1 Introduction ------>
+    <section class="section-introduction">
+        <div>
+            <h2> Get food fast — not fast food </h2>
+            <div class="row">
+                <img src="resources/img/intro-img.jpg" alt="Resturant" class="our-place">
+                <div class="features">
+                    <i class="ion-ios-infinite icon-big"></i>
+                    <h3 class="advantages"> Up to 365 days/year </h3>
+                </div>
+                <div class="features">
+                    <i class="ion-ios-stopwatch-outline icon-big"></i>
+                    <h3 class="advantages"> Ready in 20 minutes </h3>
+                </div>
+                <div class="features">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h3 class="advantages"> 100% organic </h3>
+                </div>
+                <div class="features">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h3 class="advantages"> Order anything </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 2 Discover ------>
+    <section class="section-discover">
+        <div class="intro">
+            <h4> Discover </h4>
+            <p class="place"> Omnifood Place </p>
+        </div>
+        <div class="row intro-big">
+            <div class="col span-1-of-3">
+                <img src="resources/img/intro-1.jpg" alt="Resturant Place" class="intro1">
+                <h4> ROMANTIC RESTAURANT </h4>
+                <p class="intro2"> Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros. </p>
+            </div>
+            <div class="col span-1-of-3">
+                <img src="resources/img/intro-2.jpg" alt="Resturant Place" class="intro1">
+                <h4> DELICIOUS FOOD </h4>
+                <p class="intro2"> Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna </p>
+            </div>
+            <div class="col span-1-of-3">
+                <img src="resources/img/intro-3.jpg" alt="Resturant Place" class="intro1">
+                <h4>RED WINES YOU LOVE</h4>
+                <p class="intro2"> Sed ornare ligula eget tortor tempor, quis porta tellus dictum. </p>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 3 Menu ------>
+    <section class="section-menu">
+        <h2 class="menu"> Our Menu </h2>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column1">
+                <div class="list" value="1" onmouseenter="addButton(1)" onmouseleave="removeButton(1)">
+                    <h4> Korean bibimbap </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy1"> Buy now </a>
+                    <img src="resources/img/meal-1.jpg" alt="Korean bibimbap with egg and vegetables" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column1">
+                <img src="resources/img/badge.png" alt="badge" class="badge">
+                <div class="list" value="2" onmouseenter="addButton(2)" onmouseleave="removeButton(2)">
+                    <h4> pizza </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy2"> Buy now </a>
+                    <img src="resources/img/meal-2.jpg" alt="Simple italian pizza with cherry tomatoes" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column1">
+                <div class="list" value="3" onmouseenter="addButton(3)" onmouseleave="removeButton(3)">
+                    <h4> Chicken breast </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy3"> Buy now </a>
+                    <img src="resources/img/meal-3.jpg" alt="Chicken breast steak with vegetables" class="meal-image">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column2">
+                <div class="list" value="4" onmouseenter="addButton(4)" onmouseleave="removeButton(4)">
+                    <h4> pumpkin soup </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy4"> Buy now </a>
+                    <img src="resources/img/meal-4.jpg" alt="Autumn pumpkin soup" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column2">
+                <div class="list" value="5" onmouseenter="addButton(5)" onmouseleave="removeButton(5)">
+                    <h4> Paleo beef steak </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy5"> Buy now </a>
+                    <img src="resources/img/meal-5.jpg" alt="Paleo beef steak with vegetables" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column2">
+                <img src="resources/img/badge.png" alt="badge" class="badge">
+                <div class="list" value="6" onmouseenter="addButton(6)" onmouseleave="removeButton(6)">
+                    <h4> Healthy baguette </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy6"> Buy now </a>
+                    <img src="resources/img/meal-6.jpg" alt="Healthy baguette with egg and vegetables" class="meal-image">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 meals-column3">
+                <img src="resources/img/badge.png" alt="badge" class="badge">
+                <div class="list" value="7" onmouseenter="addButton(7)" onmouseleave="removeButton(7)">
+                    <h4> Burger </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy7"> Buy now </a>
+                    <img src="resources/img/meal-7.jpg" alt="Burger with cheddar and bacon" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column3">
+                <div class="list" value="8" onmouseenter="addButton(8)" onmouseleave="removeButton(8)">
+                    <h4> Granola with cherries </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy8"> Buy now </a>
+                    <img src="resources/img/meal-8.jpg" alt="Granola with cherries and strawberries" class="meal-image">
+                </div>
+            </div>
+            <div class="col span-1-of-3 meals-column3">
+                <div class="list" value="9" onmouseenter="addButton(9)" onmouseleave="removeButton(9)">
+                    <h4> Dessert </h4>
+                    <p class="meal-describe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero praesentium
+                        quam nulla </p>
+                    <a href="#" class="btn-buy9"> Buy now </a>
+                    <img src="resources/img/meal-9.jpg" alt="Dessert" class="meal-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 4 Order ------>
+    <section class="section-order">
+        <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <img src="resources/img/mobile-img.png" alt="Mobile Photo" class="mobile-photo">
+            </div>
+            <div class="col span-1-of-2">
+                <div class="main-steps">
+                    <div class="steps">
+                        <div class="numbers"> 1 </div>
+                        <p class="step-text"> Choose the subscription plan that best fits your needs and sign up today.
+                        </p>
+                    </div>
+                    <div class="steps">
+                        <div class="numbers"> 2 </div>
+                        <p class="step-text"> Order your delicious meal using our mobile app or website. Or you can even
+                            call us! </p>
+                    </div>
+                    <div class="steps">
+                        <div class="numbers"> 3 </div>
+                        <p class="step-text"> Enjoy your meal after less than 20 minutes. See you the next time!. </p>
+                    </div>
+                    <div class="steps">
+                        <a href="https://www.apple.com/ios/app-store/" target="blank"><img src="resources/img/app-store.svg" alt="App Store" class="store"></a>
+                        <a href="https://play.google.com/store/apps?hl=en" target="blank"><img src="resources/img/play-store.png" alt="Play Store" class="store"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 5 Cities ------>
+    <section class="section-cities">
+        <h2> We're currently in these cities </h2>
+        <div class="row">
+            <img src="resources/img/city-1.jpg" alt="Lisbon" class="city-image1 city-1">
+            <div class="city-information">
+                <h4> Lisbon </h4>
+            </div>
+            <div class="city-information">
+                <i class="ion-person icon"></i>
+                <h3> 1600+ happy eaters </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-ios-star icon" style="color:#e84118"></i>
+                <h3> 60+ top chefs </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-social-twitter icon" style="color: #1DA1F2;"></i>
+                <h3> <a href="#"> @omnifood_lx </a> </h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="resources/img/city-2.jpg" alt="Beijing" class="city-image2 city-2">
+            <div class="city-information">
+                <h4> Beijing </h4>
+            </div>
+            <div class="city-information">
+                <i class="ion-person icon"></i>
+                <h3> 2300+ happy eaters </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-ios-star icon" style="color:#e84118"></i>
+                <h3> 110+ top chefs </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-social-twitter icon" style="color: #1DA1F2;"></i>
+                <h3> <a href="#"> @omnifood_beijing </a> </h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="resources/img/city-3.jpg" alt="San Francisco" class="city-image1 city-3">
+            <div class="city-information">
+                <h4> San Fran </h4>
+            </div>
+            <div class="city-information">
+                <i class="ion-person icon"></i>
+                <h3> 1600+ happy eaters </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-ios-star icon" style="color:#e84118"></i>
+                <h3> 60+ top chefs </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-social-twitter icon" style="color: #1DA1F2;"></i>
+                <h3> <a href="#"> @omnifood_sf </a> </h3>
+            </div>
+        </div>
+        <div class="row">
+            <img src="resources/img/city-4.jpg" alt="Toronto" class="city-image2 city-4">
+            <div class="city-information">
+                <h4> Toronto </h4>
+            </div>
+            <div class="city-information">
+                <i class="ion-person icon"></i>
+                <h3> 1200+ happy eaters </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-ios-star icon" style="color:#e84118"></i>
+                <h3> 50+ top chefs </h3>
+            </div>
+            <div class="city-information">
+                <i class="ion-social-twitter icon" style="color: #1DA1F2;"></i>
+                <h3> <a href="#"> @omnifood_Toronto </a> </h3>
+            </div>
+        </div>
+    </section>
+
+    <!------ Section 6 Our Customers ------>
+    <section class="section-customer">
+        <h2>Our customers can't live without us</h2>
+        <button class="switch2"> <i class="ion-chevron-left icon-small1"></i> </button>
+        <button class="switch1"> <i class="ion-chevron-right icon-small2"></i> </button>
+        <div id="slide-show">
+            <div class="customer1">
+                <div class="row">
+                    <img src="resources/img/customer-1.jpg" alt="customers" class="customer-image">
+                </div>
+                <div class="row">
+                    <p class="quotes"> " Omnifood is just awesome! I just launched a startup which leaves me with no time
+                        for
+                        cooking, so
+                        Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals! " </p>
+                    <h4 class="name"> Alberto Duncan </h4>
+                </div>
+            </div>
+            <div class="customer2">
+                <div class="row">
+                    <img src="resources/img/customer-2.jpg" alt="customers" class="customer-image">
+                </div>
+                <div class="row">
+                    <p class="quotes"> " Inexpensive, healthy and great-tasting meals, delivered right to my home. We have
+                        lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are
+                        so in love! " </p>
+                    <h4 class="name"> Joana Silva </h4>
+                </div>
+            </div>
+            <div class="customer3">
+                <div class="row">
+                    <img src="resources/img/customer-3.jpg" alt="customers" class="customer-image">
+                </div>
+                <div class="row">
+                    <p class="quotes"> " I was looking for a quick and easy food delivery service in San Franciso. I tried a
+                        lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the
+                        great work! " </p>
+                    <h4 class="name"> Milton Chapman </h4>
+                </div>
+            </div>
+        </div>
+        <div class="btn-switch">
+            <ul>
+                <li> <button class="btn1" id="active"> </button> </li>
+                <li> <button class="btn2"> </button> </li>
+                <li> <button class="btn3"> </button> </li>
+            </ul>
+        </div>
+    </section>
+
+    <!------ Section 7 Booking ------>
+    <section class="section-booking">
+        <h2> we are happy to have you </h2>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <h4> Reservation </h4>
+                <p class="place"> BOOK TABLE </p>
+                <div class="row">
+                    <form action="#">
+                        <div class="col span-1-of-2">
+                            <label for="Date"> Date </label>
+                            <input type="date" value="1" onclick="change(1)" class="input-date">
+                            <label for="time"> Time </label>
+                            <input type="time">
+                            <label for="people-number"> People </label>
+                            <select name="people-number" id="people-number">
+                                <option value="1 person" class="option1"> 1 person </option>
+                                <option value="2 people"> 2 people </option>
+                                <option value="3 people"> 3 people </option>
+                                <option value="4 people"> 4 people </option>
+                                <option value="5 people"> 5 people </option>
+                                <option value="6 people"> 6 people </option>
+                                <option value="7 people"> 7 people </option>
+                                <option value="8 people"> 8 people</option>
+                                <option value="9 people"> 9 people </option>
+                                <option value="10 people"> 10 people </option>
+                                <option value="11 people"> 11 people </option>
+                                <option value="12 people"> 12 people </option>
+                            </select>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <label for="name"> Name </label>
+                            <input type="text" placeholder="Your Name" required>
+                            <label for="Phone"> Phone </label>
+                            <input type="number" placeholder="Your Phone" required>
+                            <label for="Email"> Email </label>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <button type="submit" class="booking btn-book"> BOOK TABLE </button>
+                    </form>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <img src="resources/img/booking-img.jpg" alt="booking image" class="booking-image">
+            </div>
+        </div>
+    </section>
+
+    <!------ Footer ------>
+    <footer>
+        <div class="row">
+            <ul class="first-list">
+                <a href="#">
+                    <li> About us </li>
+                </a>
+                <a href="#">
+                    <li> Blog </li>
+                </a>
+                <a href="#">
+                    <li> Press </li>
+                </a>
+                <a href="#">
+                    <li> ios App </li>
+                </a>
+                <a href="#">
+                    <li> Android App </li>
+                </a>
+            </ul>
+            <ul class="second-list">
+                <a href="#">
+                    <li> <i class="ion-social-facebook"></i></li>
+                </a>
+                <a href="#">
+                    <li> <i class="ion-social-twitter"></i></li>
+                </a>
+                <a href="#">
+                    <li> <i class="ion-social-googleplus"></i></li>
+                </a>
+                <a href="#">
+                    <li> <i class="ion-social-instagram-outline"></i></li>
+                </a>
+            </ul>
+        </div>
+        <p> Copyright © 2020 by Barsoum Adly. All rights reserved </p>
+    </footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="resources/js/main-javascript.js"></script>
+
+</html>
