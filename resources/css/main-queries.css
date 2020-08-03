@@ -67,7 +67,7 @@
   .main-header {
     position: absolute;
     width: 1140px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-15%, -15%);
   }
