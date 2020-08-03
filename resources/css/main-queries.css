@@ -2,6 +2,9 @@
 /* Mobile Screen Max-Width 480px */
 /*----------------------*/
 @media only screen and (max-width: 480px) {
+  body{
+    max-width: 100%;
+  }
   /*----------------------*/
   /* Main Heading */
   /*----------------------*/
@@ -21,18 +24,10 @@
   /* Icons */
   /*----------------------*/
   .icon-small1 {
-    position: absolute;
-    float: left;
-    margin-top: 220px;
-    margin-left: 10px;
-    font-size: 200%;
+    display: none;
   }
   .icon-small2 {
-    position: absolute;
-    float: right;
-    margin-top: 220px;
-    margin-left: 340px;
-    font-size: 200%;
+    display: none;
   }
 
   /*----------------------*/
@@ -129,9 +124,12 @@
   /*----------------------*/
   /* Section 3 Meals */
   /*----------------------*/
+  .list{
+    width:90%;
+    margin-left: 20px;
+  }
   .meal-image {
-    width: 350px;
-    padding-left: 25px;
+    width: 320px;
     padding-top: 30px;
   }
   /*----------------------*/
