@@ -125,7 +125,7 @@
   /* Section 3 Meals */
   /*----------------------*/
   .list{
-    width:90%;
+    max-width:90%;
     margin-left: 20px;
   }
   .meal-image {
