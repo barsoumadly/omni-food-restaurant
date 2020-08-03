@@ -2,7 +2,7 @@
 /* Mobile Screen Max-Width 480px */
 /*----------------------*/
 @media only screen and (max-width: 480px) {
-  body{
+  body {
     max-width: 100%;
   }
   /*----------------------*/
@@ -33,6 +33,12 @@
   /*----------------------*/
   /* Buttons */
   /*----------------------*/
+  .btn {
+    text-decoration: none;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    padding: 10px 25px;
+  }
   .btn-book {
     position: absolute;
     text-decoration: none;
@@ -51,7 +57,7 @@
   /*----------------------*/
   header {
     background-position: -150px;
-    background-size: 100%;
+    background-size: 90%;
     max-height: 100vh;
     max-width: 100vw;
   }
@@ -124,8 +130,8 @@
   /*----------------------*/
   /* Section 3 Meals */
   /*----------------------*/
-  .list{
-    max-width:90%;
+  .list {
+    max-width: 90%;
     margin-left: 20px;
   }
   .meal-image {
@@ -265,5 +271,4 @@
   select {
     margin-left: 25px;
   }
-  
 }
